@@ -1,0 +1,94 @@
+{
+  "app": {
+    "title": "Social Support Portal",
+    "subtitle": "Apply for Financial Assistance"
+  },
+  "form": {
+    "steps": {
+      "personal": "Personal Information",
+      "family": "Family & Financial Info",
+      "situation": "Situation Descriptions"
+    },
+    "fields": {
+      "name": "Full Name",
+      "nationalId": "National ID",
+      "dateOfBirth": "Date of Birth",
+      "gender": "Gender",
+      "address": "Address",
+      "city": "City",
+      "state": "State",
+      "country": "Country",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "maritalStatus": "Marital Status",
+      "dependents": "Number of Dependents",
+      "employmentStatus": "Employment Status",
+      "monthlyIncome": "Monthly Income",
+      "housingStatus": "Housing Status",
+      "currentFinancialSituation": "Current Financial Situation",
+      "employmentCircumstances": "Employment Circumstances",
+      "reasonForApplying": "Reason for Applying"
+    },
+    "genders": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "maritalStatuses": {
+      "single": "Single",
+      "married": "Married",
+      "divorced": "Divorced",
+      "widowed": "Widowed"
+    },
+    "employmentStatuses": {
+      "employed": "Employed",
+      "unemployed": "Unemployed",
+      "selfEmployed": "Self-Employed",
+      "retired": "Retired",
+      "student": "Student"
+    },
+    "housingStatuses": {
+      "owned": "Owned",
+      "rented": "Rented",
+      "homeless": "Homeless",
+      "other": "Other"
+    }
+  },
+  "buttons": {
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit Application",
+    "helpMeWrite": "Help Me Write",
+    "accept": "Accept",
+    "edit": "Edit",
+    "discard": "Discard",
+    "save": "Save Progress"
+  },
+  "ai": {
+    "generating": "Generating suggestion...",
+    "error": "Failed to generate suggestion. Please try again.",
+    "timeout": "Request timed out. Please try again.",
+    "suggestion": "AI Suggestion"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email address",
+    "phone": "Please enter a valid phone number",
+    "nationalId": "Please enter a valid National ID",
+    "minLength": "Minimum length is {{min}} characters",
+    "maxLength": "Maximum length is {{max}} characters"
+  },
+  "progress": {
+    "step": "Step {{current}} of {{total}}",
+    "completed": "Completed"
+  },
+  "messages": {
+    "autoSaved": "Changes saved automatically",
+    "successTitle": "Application Submitted Successfully!",
+    "successMessage": "Your application has been received. We will review it and get back to you soon.",
+    "submitAnother": "Submit Another Application",
+    "fixErrors": "Please fix the errors below before proceeding.",
+    "editSuggestion": "You can edit the suggestion above before accepting it.",
+    "completeRequired": "Please complete all required fields (minimum 50 characters for each description) to submit the application."
+  }
+}
